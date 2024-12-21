@@ -1,0 +1,1095 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f6f4ed;
+}
+
+#startpagina{
+    background-color: #EBE9E1;
+    width: 80%;
+    margin: 50px auto 100px;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+#startpagina H1{
+    color: #d6536d;
+    font-size: 200px;
+    text-align: center;
+}
+
+#naarPortfolioKnop{
+    display: block;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    width: fit-content;
+    text-decoration: none;
+    font-size: 36px;
+    background-color: #e74319 ;
+    color: #EBE9E1;
+
+}
+
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 52px;
+    font-family: Impact, sans-serif;
+    color: #e74319;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 80px;
+
+}
+
+#contact ul{
+    display: flex;
+    list-style: none;
+}
+
+#contact ul li{
+    margin-left: 40px;
+}
+
+#contact ul li a {
+    text-decoration: none;
+    color: #e74319;
+
+}
+
+header{
+    width:750px;
+}
+
+#contact ul li a:hover{
+    color: #f5ac24;
+}
+
+#headerAndNavContainer{
+    display: flex;
+    justify-content: center;
+    height: 810px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+    background-color: #EBE9E1;
+    animation-name: verschijnen;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes verschijnen {
+    0% {opacity: 0}
+    100% {opacity: 100%}
+}
+
+
+
+#naam{
+    font-size: 300px;
+    height: 275px;
+    font-family: Impact, sans-serif;
+    color: #e74319;
+
+
+}
+
+
+
+#achternaam{
+    font-size: 300px;
+    height: 275px;
+    font-family: Impact, sans-serif;
+    color: #e74319;
+    margin-top: 100px;
+    width: fit-content;
+}
+
+#portfolio_Titel{
+    font-size: 150px;
+    width: fit-content;
+    height: 0;
+    font-family: serif, "Palatino Linotype";
+    color: #d6536d;
+}
+
+header #headerLijntjesPortfolio{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    height: 0;
+
+}
+
+#headerLijntjesPortfolio hr{
+    width: 200px;
+    border-bottom: #d6536d 5px solid;
+    height: 0;
+    position: relative;
+    margin-top: 180px;
+}
+
+#navigation{
+    padding-bottom: 20px;
+    margin-top: 448px;
+    transform: skewX(9deg);
+    width: 365px;
+}
+
+
+
+#navigation ul li{
+    transform: skewX(-9deg);
+    list-style: none;
+    height: 51px;
+}
+
+#navigation li a{
+    text-decoration: none;
+    font-family: Impact, sans-serif;
+    color: #f5ac24;
+    font-size: 41.5px;
+    width: fit-content;
+}
+
+#navigation ul li a:hover{
+    color: #d6536d;
+    height: 51px;
+    font-size: 45px;
+}
+
+
+main h1{
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
+    font-size: 150px;
+    font-family: Impact, sans-serif;
+    color: #f5ac24;
+}
+
+#cv{
+    background-color: #f6f4ed;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: fit-content;
+    padding-bottom: 50px;
+}
+
+
+#introductieContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+#introductieContainer img{
+    height: 650px;
+    border-radius: 30px;
+
+}
+
+
+
+#introductieContainer img:hover{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 10px 10px 5px rgba(36, 36, 36, 0.5);
+}
+
+#introductieContainer img:active{
+    box-shadow: none;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#introTekst{
+    width: fit-content;
+    margin-left: 50px;
+}
+
+#introTekst h2{
+
+    font-size: 60px;
+    font-family: Impact, sans-serif;
+    color: #e74319;
+}
+ #introTekst h3{
+    font-size: 200px;
+    font-family: Impact, sans-serif;
+    color: #e74319;
+
+    animation-name: kleurverandering;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes kleurverandering {
+    0% {color: #e74319}
+    25% {color: #c42a54}
+    50% { color: #d6536d}
+    75% {color: #e38838}
+    100% {color: #f5ac24}
+}
+
+#introTekst h4{
+    color: #e74319;
+    font-family: Impact, sans-serif;
+    font-size: 35px;
+}
+
+#introTekst p{
+    padding-top: 20px;
+    font-family: Droid Sans, sans-serif;
+    font-size: 24px;
+    color: #e74319;
+    width: 400px;
+}
+
+#diplomas{
+    margin-top: 100px;
+    background-image: url("assets/ai-generated-9061883_1920.jpg");
+    border-radius: 50px;
+    width: 78%;
+    height: 900px;
+}
+
+
+#diplomas h2{
+    padding-top: 50px;
+    margin-left: 100px;
+    font-size: 120px;
+    font-family: Impact, sans-serif;
+    color: #EBE9E1;
+    text-align: left;
+}
+
+#diplomas h3{
+    padding-top: 50px;
+    margin-left: 100px;
+    text-align: left;
+    color: #e74319;
+    font-family: Impact, sans-serif;
+    font-size: 35px;
+}
+
+#diplomas p{
+    margin-left: 100px;
+    text-align: left;
+    font-family: Droid Sans, sans-serif;
+    font-size: 24px;
+    color: #EBE9E1;
+}
+
+#vaardighedenSection{
+    margin-top: 100px;
+}
+
+#vaardigheden{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+#vaardighedenTitel{
+    font-size: 120px;
+    font-family: Impact, sans-serif;
+    color: #e74319;
+    text-align: right;
+    margin-right: 10%;
+}
+
+#vaardighedenNiveau{
+    display: none;
+}
+
+
+
+#fotoVaardigheden{
+    width: 40%;
+    border-radius: 50px;
+}
+
+
+#technischeVaardigheden h2{
+    text-align: right;
+    margin-right: 50px;
+    font-size: 80px;
+    font-family: Impact, sans-serif;
+    color: #f5ac24;
+
+}
+
+#technischeVaardigheden h3{
+    text-align: right;
+    font-family: Impact, sans-serif;
+    color: #f5ac24;
+    font-size: 35px;
+    margin-right: 50px;
+
+}
+
+#ulFotos{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+#ulFotos img{
+    height: 99px;
+    width: 90px;
+    margin-right: 50px;
+}
+
+#technischeVaardigheden table {
+    text-align: right;
+    margin-right: 50px;
+    margin-left: 75%;
+    margin-top: 20px;
+
+}
+
+#technischeVaardigheden tr:nth-child(even) {
+    color: #f5ac24;
+    font-family: Droid Sans, sans-serif;
+    font-size:24px ;
+}
+#technischeVaardigheden:nth-child(odd) {
+    color: #e74319;
+    font-family: Droid Sans, sans-serif;
+    font-size: 24px;
+}
+
+#technischeVaardigheden table tr td{
+    width: 100px;
+}
+
+#technischeVaardigheden table tr td:first-of-type{
+    font-weight: bold;
+}
+
+
+
+#socialeVaardigheden h2{
+    font-size: 80px;
+    font-family: Impact, sans-serif;
+    color: #f5ac24;
+    text-align: right;
+    margin-right: 50px;
+
+}
+
+#socialeVaardigheden h3{
+    text-align: right;
+    color: #f5ac24;
+    font-family: Impact, sans-serif;
+    font-size: 35px;
+    margin-right: 50px;
+
+}
+
+#socialeVaardigheden p{
+    text-align: right;
+    padding-top: 20px;
+    font-family: Droid Sans, sans-serif;
+    font-size: 24px;
+    color: #f5ac24;
+    margin-right: 50px;
+    padding-left: 55%;
+
+
+}
+
+#taalKennisSection{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    background-color: #ff7aac;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+
+#taalKennisSection img{
+    width: 70%;
+    height: 70%;
+    margin-top: 200px;
+}
+
+#talenKennis{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#talenKennis h2{
+    font-size: 150px;
+    font-family: Impact, sans-serif;
+    color: #EBE9E1;
+
+}
+
+#talenKennis h3{
+
+    color: #d6536d;
+    font-family: Impact, sans-serif;
+    font-size: 35px;
+}
+
+#talenKennis p{
+    padding-top: 40px;
+    font-family: Droid Sans, sans-serif;
+    font-size: 24px;
+    color: #EBE9E1;
+
+}
+
+#talenKennis ul{
+    list-style: none;
+    font-size: 24px;
+    color: #EBE9E1;
+    font-family: Droid Sans, sans-serif;
+    margin-top: 50px;
+}
+
+#werkErvaring{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+#titelsWerkervaring{
+    text-align: right;
+    margin-right: 50px;
+}
+
+
+#werkErvaring h3{
+    font-size: 120px;
+    color: #e74319;
+    font-family: Impact, sans-serif;
+}
+
+
+#werkErvaring h4{
+    font-size: 60px;
+    color: #e74319;
+    font-family: Impact, sans-serif;
+
+}
+
+
+
+#werkErvaring ul li{
+    color: #e74319;
+    font-size: 24px;
+    padding-top: 20px;
+    list-style: none;
+    width: 400px;
+    font-family: Droid Sans, sans-serif;
+}
+
+.vet{
+    font-weight: bold;
+}
+
+.kleiner{
+    font-size: 21px;
+}
+
+#knopMeerFlosDinner{
+    background-color: #e74319;
+    color: #f6f4ed !important;
+    width: 150px !important;
+    text-align: center;
+    padding: 7px !important;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: Droid Sans, sans-serif;
+}
+
+#knopMeerFlosDinner:hover{
+    background-color: #f5ac24;
+}
+
+#knopMeerZwecoOptics{
+    margin-top: 10px;
+    background-color: #e74319;
+    color: #f6f4ed !important;
+    width: 150px !important;
+    text-align: center;
+    padding: 7px !important;
+    border-radius: 10px;
+    font-family: Droid Sans, sans-serif;
+}
+
+#knopMeerZwecoOptics:hover{
+    background-color: #f5ac24;
+}
+
+
+footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #EBE9E1;
+    border-radius: 50px;
+
+}
+
+footer h1{
+    font-size: 120px;
+    color: #e74319;
+    font-family: Impact, sans-serif;
+    text-align: center;
+}
+
+footer h2{
+    font-size: 48px;
+    color: #f5ac24;
+    font-family: Impact, sans-serif;
+    text-align: center;
+}
+
+footer p{
+    font-size: 120px;
+    color: #d6536d;
+    font-family: Impact, sans-serif;
+    text-align: center;
+}
+
+#footerKleiner{
+    font-size: 90px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #EBE9E1;
+}
+
+#knop{
+    font-size: 100px;
+    background-color: #e74319;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+#knop:hover{
+    background-color: #f5ac24;
+}
+
+
+
+
+
+#logboek table{
+    margin: 50px auto 100px auto;
+    font-size: 14px;
+    color: #e74319;
+}
+
+#logboek table thead{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#logboek table tr td{
+    width: 400px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#ontwikkeling{
+    margin-bottom: 100px;
+}
+
+#ontwikkeling h2{
+    font-family: Impact, sans-serif;
+    color: #e74319;
+    font-size: 64px;
+}
+
+#ontwikkeling h3{
+    font-family: Impact, sans-serif;
+    color: #e74319;
+    font-size: 36px;
+}
+
+#ontwikkeling p {
+    color: #e74319;
+    font-size: 16px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+#ontwikkeling article{
+    margin-left: 275px;
+    margin-top: 50px;
+
+}
+
+#ontwikkeling table td {
+    padding-top: 20px;
+    width: 400px;
+    padding-left: 50px;
+}
+
+#ontwikkeling tr{
+    color: #e74319;
+    font-size: 16px;
+}
+
+#competenties{
+    margin-left:0 !important;
+    margin-right: 270px;
+    text-align: right;
+}
+
+#ontwikkeling table{
+    margin-left: 800px;
+}
+
+.rol{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    header{
+        width:300px;
+        margin: 0 auto;
+    }
+
+    #contact{
+        font-size: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 40px;
+    }
+
+    #contact ul li{
+        margin-left: 20px;
+    }
+
+    #headerAndNavContainer{
+        width: 100% ;
+        display: inline-block;
+        height: 420px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 20px;
+
+    }
+
+    #naam{
+        font-size: 120px;
+        height: 105px;
+    }
+
+    #achternaam{
+        font-size: 120px;
+        height: 120px;
+        margin-top:50px;
+    }
+
+    #portfolio_Titel{
+        font-size: 60px;
+        margin: 0 auto;
+    }
+
+    header #headerLijntjesPortfolio{
+        margin-left: 0;
+        height: 0;
+    }
+
+    #headerLijntjesPortfolio hr{
+        display: none;
+    }
+
+    #navigation{
+        margin-top: 10px;
+        width: 100%;
+        transform: none;
+
+    }
+
+    #navigation ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #navigation ul li{
+        height: 20px;
+        width: fit-content;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 25px;
+        transform: none;
+
+
+    }
+
+    #navigation li a{
+        font-size: 28px;
+
+    }
+
+    #navigation ul li a:hover{
+        height: 25px;
+        font-size: 17px;
+    }
+
+
+
+
+
+
+
+    #cv{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    #cv h1{
+        font-size: 60px;
+        padding-top: 0;
+    }
+
+    #introductieContainer{
+        display: inline-block;
+        margin-top: 20px;
+        width: 100%;
+
+    }
+
+    #introductieContainer img{
+        height: 400px;
+        border-radius: 30px;
+        margin-left: 17px;
+    }
+
+
+    #introTekst{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    #introTekst h2{
+        font-size: 30px;
+        font-family: Impact, sans-serif;
+        color: #e74319;
+    }
+    #introTekst h3{
+        font-size: 80px;
+        font-family: Impact, sans-serif;
+        color: #e74319;
+
+    }
+
+    #introTekst h4{
+        color: #e74319;
+        font-family: Impact, sans-serif;
+        font-size: 20px;
+    }
+
+    #introTekst p{
+        padding-top: 10px;
+        font-family: serif, "Palatino Linotype";
+        color: #e74319;
+        width: 95%;
+        font-size: 18px;
+    }
+
+
+
+
+
+    #diplomas{
+        margin-top: 50px;
+        background-image: url("assets/ai-generated-9061883_1920.jpg");
+        border-radius: 20px;
+        width: 100%;
+        height: 500px;
+    }
+
+
+    #diplomas h2{
+        padding-top: 30px;
+        margin-left: 50px;
+        font-size: 60px;
+
+
+    }
+
+    #diplomas h3{
+        padding-top: 25px;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+    #diplomas p{
+        margin-left: 50px;
+        font-size: 18px;
+    }
+
+
+
+
+
+
+
+
+    #vaardighedenSection{
+        margin-top: 50px;
+
+    }
+
+    #vaardigheden{
+        margin-top: 10px;
+
+    }
+
+    #vaardighedenTitel{
+        font-size: 60px;
+        margin-right: 5%;
+    }
+
+
+    #fotoVaardigheden{
+        display: none;
+    }
+
+
+    #technischeVaardigheden h2{
+        margin-right: 25px;
+        font-size: 40px;
+    }
+
+    #technischeVaardigheden h3{
+        font-size: 20px;
+        margin-right: 25px;
+
+    }
+
+    #ulFotos{
+        margin-top: 20px;
+
+    }
+
+    #ulFotos img{
+        height: 50px;
+        width: 50px;
+        margin-right: 25px;
+    }
+
+    #technischeVaardigheden table {
+        display: none;
+    }
+
+    #socialeVaardigheden h2{
+        font-size: 40px;
+        margin-right: 25px;
+
+    }
+
+    #socialeVaardigheden h3{
+        font-size: 20px;
+        margin-right: 25px;
+
+    }
+
+    #socialeVaardigheden p{
+
+        padding-top: 20px;
+        font-size: 18px;
+        margin-right: 25px;
+        padding-left: 20%;
+
+    }
+
+    #vaardighedenNiveau{
+        display: inline-block;
+        color: #e74319;
+        font-size: 18px;
+        text-align: right;
+        margin-right: 25px;
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+
+
+    #taalKennisSection{
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;
+        margin-top: 50px;
+        padding-left: 50px;
+        padding-top: 15px;
+    }
+
+    #taalKennisSection img{
+        display: none;
+    }
+
+    #talenKennis{
+        margin-top: 25px;
+        margin-right: 25px;
+    }
+
+    #talenKennis h2{
+        font-size: 60px;
+    }
+
+    #talenKennis h3{
+        font-size: 22px;
+    }
+
+    #talenKennis p{
+        padding-top: 20px;
+        font-size: 18px;
+        color: #EBE9E1;
+
+    }
+
+    #talenKennis ul{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+
+    #werkErvaring{
+        margin-left: 50px;
+        margin-top: 50px;
+        display: block ;
+
+    }
+
+    #titelsWerkervaring{
+
+        text-align: left;
+    }
+
+
+    #werkErvaring h3{
+        font-size: 60px;
+    }
+
+
+    #werkErvaring h4{
+            display: none;
+    }
+
+
+    #werkErvaring ul li{
+        font-size: 20px;
+        padding-top: 10px;
+        width: 300px;
+    }
+
+    .vet{
+        font-weight: bold;
+    }
+
+    .kleiner{
+        font-size: 18px;
+    }
+
+
+
+
+
+
+
+
+    footer{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 50px;
+        width: 100%;
+        border-radius: 20px;
+
+    }
+
+    footer h1{
+        font-size: 20px;
+    }
+
+    footer h2{
+        font-size: 18px;
+    }
+
+    footer p{
+        font-size: 20px;
+    }
+
+    #footerKleiner{
+        font-size: 23px;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: #EBE9E1;
+    }
+
+    #knop{
+        font-size: 20px;
+        background-color: #e74319;
+        width: fit-content;
+        height: fit-content;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+
+}
+
+
+
+
+
+
