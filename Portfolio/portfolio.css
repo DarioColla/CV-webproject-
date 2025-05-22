@@ -4,13 +4,16 @@
     margin: 0;
 }
 
-body{
+HTML, body{
     background-color: #f6f4ed;
+    width: 100%;
+    min-width: 2000px;
+    overflow-x: hidden ;
 }
 
 #startpagina{
     background-color: #EBE9E1;
-    width: 80%;
+    width: 100%;
     margin: 50px auto 100px;
     padding: 30px;
     border-radius: 50px;
@@ -674,16 +677,7 @@ footer a{
 }
 
 
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1000px) {
 
     header{
         width:300px;
@@ -702,11 +696,9 @@ footer a{
     }
 
     #headerAndNavContainer{
-        width: 100% ;
+        width: 99% ;
         display: inline-block;
         height: 420px;
-        margin-left: 10px;
-        margin-right: 10px;
         border-radius: 20px;
 
     }
