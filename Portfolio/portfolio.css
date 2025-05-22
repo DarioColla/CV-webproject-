@@ -693,7 +693,6 @@ footer a{
         display: inline-block;
         text-align: right;
         width: 100%;
-        padding-right: 45px;
     }
 }
 
@@ -1055,13 +1054,13 @@ footer a{
 
 
     #technischeVaardigheden h2{
-        margin-right: 25px;
+        margin-right: 0px;
         font-size: 40px;
     }
 
     #technischeVaardigheden h3{
+        margin-right: 0px;
         font-size: 30px;
-        margin-right: 25px;
 
     }
 
@@ -1172,7 +1171,7 @@ footer a{
 
 
     #werkErvaring{
-        margin-left: 50px;
+        margin-left: 20px;
         margin-top: 50px;
         display: block ;
 
