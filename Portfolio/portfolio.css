@@ -7,7 +7,7 @@
 HTML, body{
     background-color: #f6f4ed;
     width: 100%;
-    min-width: 2000px;
+    min-width: ;
     overflow-x: hidden ;
 }
 
@@ -677,7 +677,7 @@ footer a{
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 
     header{
         width:300px;
@@ -696,7 +696,7 @@ footer a{
     }
 
     #headerAndNavContainer{
-        width: 99% ;
+        width: 90% ;
         display: inline-block;
         height: 420px;
         border-radius: 20px;
@@ -749,11 +749,10 @@ footer a{
         margin-top: 25px;
         transform: none;
 
-
     }
 
     #navigation li a{
-        font-size: 28px;
+        font-size: 35px;
 
     }
 
@@ -781,24 +780,24 @@ footer a{
     }
 
     #introductieContainer{
-        display: inline-block;
+        display: flex;
         margin-top: 20px;
         width: 100%;
+        align-items: flex-start;
 
     }
 
     #introductieContainer img{
-        height: 400px;
+        height: 600px;
         border-radius: 30px;
         margin-left: 17px;
     }
 
 
     #introTekst{
-        width: 100%;
+        width: 20%;
         margin-left: 20px;
         margin-right: 20px;
-        margin-top: 20px;
     }
 
     #introTekst h2{
@@ -878,7 +877,7 @@ footer a{
 
     #vaardighedenTitel{
         font-size: 60px;
-        margin-right: 5%;
+        margin-right: 2%;
     }
 
 
@@ -893,7 +892,7 @@ footer a{
     }
 
     #technischeVaardigheden h3{
-        font-size: 20px;
+        font-size: 30px;
         margin-right: 25px;
 
     }
@@ -904,33 +903,39 @@ footer a{
     }
 
     #ulFotos img{
-        height: 50px;
-        width: 50px;
+        height: 80px;
+        width: 80px;
         margin-right: 25px;
     }
 
     #technischeVaardigheden table {
-        display: none;
+        margin-right: 2%;
+        text-align: right;
+        margin-left: 80%;
+        margin-bottom: 20px;
     }
+
+
 
     #socialeVaardigheden h2{
         font-size: 40px;
+        text-align: left;
         margin-right: 25px;
 
     }
 
     #socialeVaardigheden h3{
-        font-size: 20px;
+        font-size: 30px;
+        text-align: left;
         margin-right: 25px;
 
     }
 
     #socialeVaardigheden p{
+        text-align: left;
+        margin-left: 0%;
+        padding-left: 0;
 
-        padding-top: 20px;
-        font-size: 18px;
-        margin-right: 25px;
-        padding-left: 20%;
 
     }
 
@@ -973,7 +978,7 @@ footer a{
     }
 
     #talenKennis h3{
-        font-size: 22px;
+        font-size: 30px;
     }
 
     #talenKennis p{
@@ -1048,19 +1053,19 @@ footer a{
     }
 
     footer h1{
-        font-size: 20px;
+        font-size: 40px;
     }
 
     footer h2{
-        font-size: 18px;
+        font-size: 40px;
     }
 
     footer p{
-        font-size: 20px;
+        font-size: 40px;
     }
 
     #footerKleiner{
-        font-size: 23px;
+        font-size: 40px;
     }
 
     footer a{
@@ -1069,7 +1074,7 @@ footer a{
     }
 
     #knop{
-        font-size: 20px;
+        font-size: 40px;
         background-color: #e74319;
         width: fit-content;
         height: fit-content;
