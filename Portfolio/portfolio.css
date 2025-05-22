@@ -831,6 +831,10 @@ footer a{
     #taalKennisSection{
         height: 450px !important;
     }
+
+    #werkErvaring{
+        margin-left: 0px;
+    }
 }
 
 @media screen and (max-width: 465px) {
